@@ -1,0 +1,235 @@
+<div class="container-fluid gx-0">
+    <div class="container-fluid parent_image_height gx-0">
+        <img src="assets/images/background.jpg" alt="Baner Logo" height="100%" width="100%">
+        <div class=" banner_logo_height col-md-6 col-4">
+            <img src="assets/images/banner_logo.png" alt="Baner Logo" height="100%" width="100%">
+        </div>
+    </div>
+    <div class="container-fluid row gx-0">
+        <div class="col-lg-3 col-sm-6 col-12 navigation_container">
+            <img src="assets/images/yacht.png" alt="logo" height="100%" width="100%">
+            <button type="button" class="btn navigation_button">Fishing Charter</button>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-12 navigation_container">
+            <img src="assets/images/yacht.png" alt="logo" height="100%" width="100%">
+            <button type="button" class="btn navigation_button">Reel Scope</button>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-12 navigation_container">
+            <img src="assets/images/yacht.png" alt="logo" height="100%" width="100%">
+            <button type="button" class="btn navigation_button">Market</button>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-12 mb-lg-0 navigation_container">
+            <img src="assets/images/yacht.png" alt="logo" height="100%" width="100%">
+            <button type="button" class="btn navigation_button">Restauraunt</button>
+        </div>
+    </div>
+
+    <div class="hours_container row g-0">
+        <div class="row">
+            <div class="col-xl-7 col-12 d-flex flex-column align-items-center">
+                <div class="heading col-md-10 col-11"> Smokey's Curing Company & Cantina
+                </div>
+                <div class="description col-md-10 col-11">
+                    Real content and engaging copy is meant to go here. This is FPO (for placement only) Real content
+                    and
+                    engaging copy is meant to go here. This is FPO (for placement only) Real content and engaging copy
+                    is
+                    meant to go here. This is FPO (for placement only) Real content and engaging copy is meant to go
+                    here.
+                    This is FPO (for placement only)
+                </div>
+                <div class="sub_heading col-md-10 col-11 py-3"> Open Hours </div>
+                <div class="col-md-10 col-11  d-flex align-items-center justify-content-center mb-3 "
+                    *ngFor="let item of week">
+                    <div class="day col-xl-2  col-lg-2 col-md-2 col-sm-3 col-4 p-0">
+                        {{item.day}}</div>
+                    <div class="line col-xl-6 col-lg-6 col-md-6 col-sm-5 col-3"> </div>
+                    <div class="day col-xxl-3 col-sm-4 col-5"> {{item.hour}} </div>
+                </div>
+            </div>
+
+            <div
+                class="col-xl-5 col-12 d-flex justify-content-xl-start justify-content-center ps-xl-5 ps-0 mt-xl-0 mt-5">
+                <div class="image_wraper col-9">
+                    <img src="assets/images/shawarma.png" alt="logo" height="100%" width="100%"
+                        style="border-radius: 10px;">
+                    <div class=" banner_logo col-11 mt-5">
+                        <img src="assets/images/banner_logo.png" alt="Baner Logo" height="100%" width="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid row g-0 justify-content-center fishing_processing">
+        <div class="col-xl-5 col-12 d-flex justify-content-center">
+            <div class="col-8">
+                <img src="assets/images/fish.png" alt="Baner Logo" height="100%" width="100%"
+                    style="border-radius: 10px;">
+            </div>
+        </div>
+        <div class="col-xl-7 col-11 d-flex flex-column align-items-center mt-xl-0 mt-5">
+            <div class="processing_heading col-12 pb-4">
+                Fish Processing
+            </div>
+            <div class="processing_description py-3">
+                All prices are based on manicured fillet weight. Smoked and Fresh Pack services, we use onlythe highest
+                quality 5miL vacuum pouches.
+            </div>
+
+            <div class="d-flex flex-column mb-4">
+                <div class="d-flex align-items-center col-12">
+                    <div class="menu_heading col-2"> SMOKED </div>
+                    <div class="line col-sm-8 col-7"> </div>
+                    <div class="price col-2"> $4.50/LB </div>
+                </div>
+                <div class="processing_description py-1">
+                    All prices are based on manicured fillet weight. Smoked and Fresh Pack services, we use onlythe
+                    highest
+                    quality 5miL vacuum pouches.
+                </div>
+            </div>
+
+            <div class="d-flex flex-column mb-4 col-12">
+                <div class="d-flex align-items-center">
+                    <div class="menu_heading col-2"> FRESH PACKED </div>
+                    <div class="line col-sm-8 col-7"> </div>
+                    <div class="price col-2"> $2.50/LB</div>
+                </div>
+                <div class="processing_description py-1">
+                    Manicured fillet is sanitized. vacuum packed and flash frozen in approximately 1.5 lb packages.
+                </div>
+            </div>
+
+            <div class="d-flex flex-column mb-4 col-12">
+                <div class="d-flex align-items-center col-12">
+                    <div class="menu_heading col-2"> ZIP LOCKED </div>
+                    <div class="line col-sm-8 col-7"> </div>
+                    <div class="price col-2"> $1.50/LB </div>
+                </div>
+                <div class="processing_description py-1">
+                    Manicured fillet is sanitized and flash frozen in zip lock bags
+                </div>
+            </div>
+
+            <div class="d-flex flex-column mb-4 col-12">
+                <div class="d-flex align-items-center col-12">
+                    <div class="menu_heading col-2"> FEEZ & STORE </div>
+                    <div class="line col-sm-8 col-7"> </div>
+                    <div class="price col-2"> $0.75/LB </div>
+                </div>
+                <div class="processing_description py-1">
+                    Clients catch is packaged and delivered by client and flash frozen and stored for a limited time. No
+                    long term storage.
+                </div>
+            </div>
+
+            <div class="d-flex flex-column mb-4 col-12">
+                <div class="d-flex align-items-center col-12">
+                    <div class="menu_heading col-2"> FILET SERVICE</div>
+                    <div class="line col-sm-8 col-7"> </div>
+                    <div class="price col-2"> $0.50/LB </div>
+                </div>
+                <div class="processing_description py-1">
+                    Clients catch is filleted and delivered to the client immediately.
+                </div>
+            </div>
+
+            <div class="d-flex flex-column  mb-4 col-12">
+                <div class="d-flex align-items-center ">
+                    <div class="menu_heading col-4">MARLIN BILL PROCESSING</div>
+                    <div class="line col-6"> </div>
+                    <div class="price col-2"> $10 </div>
+                </div>
+                <div class="processing_description py-1">
+                    Marlin bill is removed. salted. wrapped and flash frozen
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid d-flex flex-column align-items-center gx-0 reel_container">
+
+        <div class="reel_heading">
+            Reel Scoop
+        </div>
+        <div class="reel_discription col-6">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt utlabore et
+            dolore magna aliqua consectetur adipiscing elit.
+        </div>
+
+        <div class="col-10 row g-0 cards_container">
+            <div class="col-xl-4 col-md-6 col-12 reel_card pb-5">
+                <div class="reel_wraper col-12">
+                    <img src="assets/images/banner.jpg" alt="logo" height="100%" width="100%">
+                    <div class=" reel_logo">
+                        <img src="assets/images/sources.png" alt="Baner Logo" height="100%" width="100%"
+                            style="border-radius: 20px;">
+                    </div>
+                </div>
+
+                <div class="ree_sub_heading col-12 mt-2">
+                    Fishing Notes from the top Anglers on the Coast
+                </div>
+                <div class="date py-2">
+                    APRIL 9th - 17th
+                </div>
+
+                <div class="reel_link_description pb-5">
+                    Savor SmokeDoggs' culinary brilliance by Chef Joel Teneell—a symphony of flavors promising an
+                    unforgettable dining experience of innovation and passion.
+                </div>
+            </div>
+
+            <div class="col-xl-4 col-md-6 col-12  reel_card pb-2 px-md-4 px-0">
+                <div class="reel_wraper_2 col-12">
+                    <img src="assets/images/banner.jpg" alt="logo" height="100%" width="100%">
+                    <div class=" reel_logo_2">
+                        <img src="assets/images/forum.png" alt="Baner Logo" height="100%" width="100%"
+                            style="border-radius: 20px;">
+                    </div>
+                </div>
+
+                <div class="ree_sub_heading col-12 mt-2">
+                    Upload Your catch Images
+                </div>
+                <div class="date py-2">
+                    APRIL 9th - 17th
+                </div>
+
+                <div class="reel_link_description pb-5">
+                    Unity in Discourse: A Forum for Inclusive Conversations, Empowering Voices and Building Bridges
+                    Across Communities.
+                </div>
+            </div>
+
+            <div class="col-xl-4 col-md-6 col-12  reel_card">
+                <div class="reel_wraper_3 col-12">
+                    <img src="assets/images/banner.jpg" alt="logo" height="100%" width="100%">
+                    <div class=" reel_logo">
+                        <img src="assets/images/smokey_dog.png" alt="Baner Logo" height="100%" width="100%"
+                            style="border-radius: 20px;">
+                    </div>
+                </div>
+
+                <div class="ree_sub_heading col-12 mt-2">
+                    Angler Insights and Baja Coast Wisdom
+                </div>
+                <div class="date py-2">
+                    APRIL 9th - 17th
+                </div>
+
+                <div class="reel_link_description pb-5">
+                    Explore SmokeDoggs' culinary wisdom and flavorful insights, enriching your journey through the world
+                    of gastronomy and culinary delights.
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center mt-5">
+            <button type="button" class="btn events">See All Events</button>
+        </div>
+    </div>
+</div>
+
+<app-footer></app-footer>

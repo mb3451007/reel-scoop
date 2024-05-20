@@ -1,0 +1,356 @@
+.parent_image_height {
+    position: relative;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner_logo_height {
+    position: absolute;
+    height: 20rem;
+    width: 800px;
+}
+
+.navigation_container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation_button {
+    color: black;
+    position: absolute;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: #eaf25c;
+    border-radius: 5px;
+    padding: 12px 25px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    transition: all .2s;
+}
+
+.navigation_button:hover {
+    background-color: #5ebff1;
+    color: #fff;
+}
+
+.hours_container {
+    background-color: #a7e0f1;
+    padding: 8rem 0;
+}
+
+
+.description {
+    font-family: "Raleway", sans-serif;
+    line-height: 28px;
+}
+
+.heading {
+    color: black;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-family: "Volkhov", serif;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: left;
+}
+
+.image_wraper {
+    position: relative;
+    object-fit: cover;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.banner_logo {
+    position: absolute;
+    height: 8rem;
+}
+
+.sub_heading {
+    color: #525252;
+    font-family: "Volkhov", serif;
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.line {
+    height: 1px;
+    border-bottom: 1px solid #525252;
+}
+
+.day {
+    color: #525252;
+    text-align: left;
+    padding: 0 10px;
+}
+
+.processing_heading {
+    color: black;
+    text-align: left;
+    font-family: "Volkhov", serif;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.processing_description {
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+    line-height: 25px;
+}
+
+.fishing_processing {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+
+}
+
+.menu_heading {
+    color: black;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    position: static;
+}
+
+.price {
+    font-weight: 700;
+    text-align: center;
+}
+
+.reel_heading {
+
+    text-align: center;
+    text-transform: capitalize;
+    font-family: "Volkhov", serif;
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.reel_container {
+    background-color: #fafbf3;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.reel_discription {
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    line-height: 25px;
+}
+
+.reel_container {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    height: fit-content;
+}
+
+.reel_wraper {
+    position: relative;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+}
+
+.reel_logo {
+    position: absolute;
+    width: 275px;
+    height: 275px;
+
+}
+
+.reel_logo_2 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+}
+
+.ree_sub_heading {
+    text-align: left;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.2;
+    font-family: "Volkhov", serif;
+}
+
+.date {
+    color: #5ebff1;
+    font-size: 12px;
+}
+
+.reel_link_description {
+    font-family: "Raleway", sans-serif;
+    color: #525252;
+    border-bottom: 1px solid #525252;
+}
+
+.reel_card {
+
+    height: fit-content;
+}
+
+
+.reel_wraper_2 {
+    position: relative;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 22rem;
+}
+
+.reel_wraper_3 {
+    position: relative;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 26rem;
+}
+
+.cards_container {
+    margin-top: 7rem;
+}
+
+.events {
+    justify-content: center;
+    align-items: center;
+    padding: 10px 50px;
+    display: flex;
+    border-color: black;
+    background-color: whitesmoke;
+    border-radius: 50px;
+    transition: border-color .3s, all .3s;
+    position: relative;
+    font-size: 16px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+
+    .banner_logo_height {
+        position: absolute;
+        height: 18rem;
+        width: 600px;
+    }
+
+    .heading {
+        font-size: 40px !important;
+        line-height: 45px !important;
+    }
+
+    .processing_heading {
+        font-size: 40px !important;
+        line-height: 45px !important;
+    }
+
+    .reel_heading {
+
+        font-size: 40px !important;
+        line-height: 45px !important;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .banner_logo_height {
+        position: absolute;
+        height: 15rem;
+        width: 500px;
+    }
+
+    .heading {
+        font-size: 32px !important;
+        line-height: 35px !important;
+    }
+
+    .processing_heading {
+        font-size: 32px !important;
+        line-height: 35px !important;
+    }
+
+    .menu_heading {
+        font-size: 16px !important;
+    }
+
+    .reel_heading {
+        font-size: 32px !important;
+        line-height: 35px !important;
+    }
+}
+
+@media screen and (max-width:576px) {
+
+    .banner_logo_height {
+        position: absolute;
+        height: 13rem;
+        width: 400px;
+    }
+
+    .reel_logo {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+
+    }
+
+    .reel_logo_2 {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+    }
+
+    .heading {
+        font-size: 28px !important;
+        line-height: 35px !important;
+    }
+
+    .processing_heading {
+        font-size: 28px !important;
+        line-height: 35px !important;
+    }
+
+    .description {
+        font-size: 14px !important;
+    }
+
+    .menu_heading {
+        font-size: 16px !important;
+    }
+
+    .reel_heading {
+        font-size: 28px !important;
+        line-height: 35px !important;
+    }
+
+    .reel_discription {
+        font-size: 14px !important;
+    }
+
+    .ree_sub_heading {
+        font-size: 24px !important;
+    }
+}
+
+@media screen and (max-width:400px) {
+
+    .banner_logo_height {
+        position: absolute;
+        height: 10rem;
+        width: 350px;
+    }
+}

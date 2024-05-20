@@ -1,0 +1,33 @@
+.logo {
+    width: 175px;
+    height: 75px;
+}
+
+.tags {
+    text-decoration: none;
+    color: black;
+}
+
+.reservation {
+    height: 36px;
+    font-size: 16px;
+    padding: 0 25px;
+    border-color: black;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 50px;
+    transition: border-color .3s, all .3s;
+    position: relative;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+}
+
+.right_arrow {
+    height: 36px;
+    width: 36px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

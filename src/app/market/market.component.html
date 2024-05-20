@@ -1,0 +1,174 @@
+<app-header></app-header>
+<div class="container-fluid gx-0">
+    <div class="d-flex flex-column align-items-center">
+        <div class="heading col-10 mt-4">
+            Fish Processing
+        </div>
+        <div class="description col-7">
+            Fish Processing: All prices are based on manicured fillet weight. Smoked and Fresh Pack services, we useonly
+            the highest quality 5mil. vacuum pouches.
+        </div>
+
+        <div class="d-flex justify-content-between col-7 py-5">
+            <a class="navigations" (click)="movetoSmoking()">Smoking</a>
+            <a class="navigations" (click)="movetoFreshpack()">Fresh Pack</a>
+            <a class="navigations" (click)="movetoZiplock()">Zip Lock</a>
+            <a class="navigations" (click)="movetoFilleting()">Filleting</a>
+            <a class="navigations" (click)="movetoFreezestore()">Freez & Store</a>
+        </div>
+    </div>
+
+    <!-- Fish Details......... -->
+
+    <div class="detail_container d-flex flex-column align-items-center py-5">
+        <div class="col-10 d-flex">
+            <div class="col-6 image_height pe-2">
+                <img src="assets/images/1.png" alt="Raw Fish" height="100%" width="100%">
+            </div>
+            <div class="col-6 image_height ps-2">
+                <img src="assets/images/2.png" alt="Raw Fish" height="100%" width="100%">
+            </div>
+        </div>
+
+        <div class="col-10 d-flex mt-3">
+            <div class="col-4 image_height">
+                <img src="assets/images/3.png" alt="Raw Fish" height="100%" width="100%">
+            </div>
+            <div class="col-4 image_height ps-3 pe-3">
+                <img src="assets/images/4.png" alt="Raw Fish" height="100%" width="100%">
+            </div>
+            <div class="col-4 image_height">
+                <img src="assets/images/5.png" alt="Raw Fish" height="100%" width="100%">
+            </div>
+        </div>
+
+        <div class="summer mt-5">
+            Summer
+        </div>
+
+        <div class="heading">
+            Fish Processing Services
+        </div>
+
+        <div class="col-10 row g-0 mt-5" id="smoking">
+            <div class="image col-6 pe-5">
+                <img src="assets/images/raw-fish.png" alt="Raw Fish" height="100%" width="100%">
+            </div>
+            <div class="col-6 d-flex flex-column justify-content-center">
+                <div class="smoking">
+                    Smoking
+                </div>
+                <div class="fish_description py-3">
+                    Florida Cane Fire Ant Vodka.Blue Coat American dry gin,Soho'" lychee liqueur, freshpineapple juice
+                </div>
+                <div class="price">
+                    $4.50 per lb
+                </div>
+            </div>
+        </div>
+
+        <div class="col-10 row g-0 py-5" id="freshPack">
+            <div class="col-6 d-flex flex-column justify-content-center">
+                <div class="smoking">
+                    Fresh pack
+                </div>
+
+                <div class="fish_description py-3 col-11">
+                    Manicured fillet is sanitized, vacuum packed and flash frozen in approximately 1.5 lb packages.
+                </div>
+                <div class="price">
+                    $2.50 per lb
+                </div>
+            </div>
+
+            <div class="image col-6 pe-3">
+                <img src="assets/images/packed-1.png" alt="Raw Fish" height="100%" width="100%">
+            </div>
+
+        </div>
+
+        <div class="col-10 row g-0" id="ziplock">
+            <div class="image col-6 pe-5">
+                <img src="assets/images/packed02.png" alt="Raw Fish" height="100%" width="100%">
+            </div>
+            <div class="col-6 d-flex flex-column justify-content-center">
+                <div class="smoking">
+                    Zip Lock
+                </div>
+
+                <div class="fish_description py-3">
+                    Manicured fillet is sanitized and flash frozen in zip lock bags.
+                </div>
+                <div class="price">
+                    $1.25 per lb
+                </div>
+            </div>
+        </div>
+
+        <div class="col-10 row g-0 py-5" id="filleting">
+            <div class="col-6 d-flex flex-column justify-content-center">
+                <div class="smoking">
+                    Filleting
+                </div>
+
+                <div class="fish_description py-3 col-11">
+                    Clients catch is packaged and delivered by client and flash frozen and stored for a limited time.
+                </div>
+                <div class="price">
+                    $0.50 per lb.
+                </div>
+            </div>
+            <div class="image col-6 pe-3">
+                <img src="assets/images/Fish-pieces.png" alt="Raw Fish" height="100%" width="100%">
+            </div>
+        </div>
+
+        <div class="col-10 row g-0" id="freezeStore">
+            <div class="image col-6 pe-5">
+                <img src="assets/images/fish-lemon.png" alt="Raw Fish" height="100%" width="100%">
+            </div>
+            <div class="col-6 d-flex flex-column justify-content-center">
+                <div class="smoking">
+                    Freez & Store
+                </div>
+
+                <div class="fish_description py-3">
+                    Preserve your fresh catch with our state-of-the-art freezing technology. We ensure optimal
+                    temperature control to maintain the highest quality and taste. Your fish is securely stored in our
+                    facility, ready for you whenever you need it. Enjoy convenience and freshness with "Freez & Store"!
+                </div>
+                <div class="price">
+                    $0.75 per pound
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Reviews......... -->
+
+    <div class="container-fluid d-flex justify-content-center padding-y gx-0" style="border: 3px solid red;">
+        <div class="col-lg-12 col-12 d-flex flex-lg-row flex-column px-sm-0 px-3" style="border: 3px solid red;">
+            <div class="col-lg-8 col-sm-11 col-12 d-flex flex-column" style="border: 3px solid green;">
+                <div class="user_review">
+                    BEAUTIFUL SMOKEDTUNA PACK AND SEALEDTO PERFECTION.
+                </div>
+                <div>
+                    Five-star meals prepared by Chef Joel Teneell: Elevating dining to a newlevel of excellence, each
+                    dish
+                    meticulously crafted with culinary expertiseand a passion for perfection, promising an unforgettable
+                    gastronomicjourney.
+                </div>
+                <div class="d-flex flex-column align-items-center mt-5">
+                    <div class="memories">"Some of the best MahiMahi I have ever had."</div>
+                    <div class="mt-5"> <img src="assets/images/jon-doe.png" alt="user" width="140px" height="140px">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-11 col-12 d-flex justify-content-center mt-lg-0 mt-5">
+                <div class="fish_platter ms-3 "> <img src="assets/images/fish-platter.webp" alt="user" height="100%"
+                        width="100%" style="border-radius: 15px;"> </div>
+            </div>
+        </div>
+    </div>
+</div>
+<app-footer></app-footer>

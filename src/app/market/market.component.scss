@@ -1,0 +1,115 @@
+.heading {
+    color: black;
+    font-family: "Volkhov", serif;
+    font-size: 52px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.description {
+    font-family: "Raleway", sans-serif;
+    line-height: 1.8;
+    text-align: center;
+}
+
+.navigations {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.detail_container {
+    background-color: #f9fbf1;
+}
+
+.smoking {
+    color: #161616;
+    font-family: "Volkhov", serif;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.fish_description {
+    line-height: 1.8;
+    font-size: 16px;
+    font-family: "Raleway", sans-serif;
+}
+
+.price {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.image {
+    height: 400px;
+}
+
+.summer {
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+}
+
+.image_height {
+    height: 300px;
+
+}
+
+.user_review {
+    color: black;
+    font-family: "Volkhov", serif;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.memories {
+    margin-top: 20px;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.padding-y {
+    padding: 5rem 0 7rem 0;
+}
+
+.fish_platter {
+    height: 50rem;
+    width: 30rem;
+}
+
+@media (max-width:1400px) {
+    .fish_platter {
+        height: 50rem;
+        width: 25rem;
+    }
+}
+
+@media (max-width:1200px) {
+    .fish_platter {
+        height: 50rem;
+        width: 22rem;
+    }
+}
+
+@media (max-width:992px) {
+    .fish_platter {
+        height: 30rem !important;
+        width: fit-content !important;
+    }
+
+}
+
+@media (max-width:768px) {
+
+    .heading {
+        font-size: 24px !important;
+    }
+
+    .user_review {
+        font-size: 24px !important;
+    }
+
+}

@@ -1,0 +1,75 @@
+.image_container {
+    height: 5rem;
+}
+
+.heading {
+    color: black;
+    font-family: "Volkhov", serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.reservation {
+    text-transform: uppercase;
+    border-radius: 50px;
+    padding: 15px 30px;
+    text-decoration: none;
+    border: 1px solid #525252;
+    color: black;
+    background-color: rgba(56, 152, 236, 0);
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+
+}
+
+.description {
+    font-family: "Raleway", sans-serif;
+}
+
+.yacht_container {
+    height: 13rem;
+}
+
+.container_padding {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.fish_women {
+    height: 26rem;
+}
+
+.logo {
+    width: 175px;
+    height: 75px;
+}
+
+.social_container {
+    background-color: #a0a0a0;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}
+
+.tags {
+    text-decoration: none;
+    color: black;
+}
+
+.lower_tags {
+    color: black;
+}
+
+@media (max-width:576px) {
+    .logo {
+        width: 275px;
+        height: 120px;
+    }
+
+    .heading {
+      font-size: 28px !important;
+        line-height: 35px !important;
+    }
+}
